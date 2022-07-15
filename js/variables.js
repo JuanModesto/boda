@@ -16,9 +16,12 @@ var hero_full_screen = true;                    //If true, the hero section will
 
 //HERO BACKGROUND SLIDESHOW IMAGES
 var slidehow_images = [
-    "https://via.placeholder.com/1920x1080.png",
-    "https://via.placeholder.com/1920x1080.png",
-    "https://via.placeholder.com/1920x1080.png"
+    "./images/portada/ojos-cerrados-blanco.JPG",
+    "./images/portada/bailando.JPG",
+    "./images/portada/mirando-horizonte.JPG",
+    "./images/portada/mirando-caballo.JPG",
+    "./images/portada/caballo.JPG",
+    "./images/portada/ojos-cerrados.JPG",
 ];
 
 //TIMELINE PARALLAX
