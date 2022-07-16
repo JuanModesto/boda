@@ -71,51 +71,10 @@
 	
 		<!-- BEGIN HEADER -->
 		<header id="header">
-			<div class="nav-section">
+			<div class="nav-section light no-menu">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-12">
-							<a href="#hero" class="nav-logo"><img src="images/logo.png" alt="Neela" /></a>
-							
-							<!-- BEGIN MAIN MENU -->
-							<nav class="navbar">
-								
-								<ul class="nav navbar-nav">
-									<li><a href="#hero">Inicio</a></li>
-									
-									<li class="dropdown">
-										<a href="#about-us" data-toggle="dropdown" data-hover="dropdown">Nosotros<b class="caret"></b></a>
-										<ul class="dropdown-menu">
-											<li><a href="#loveline">Nuestra historia</a></li>
-										</ul>
-									</li>
-									
-									<li class="dropdown">
-										<a href="#the-wedding" data-toggle="dropdown" data-hover="dropdown">La Boda<b class="caret"></b></a>
-										<ul class="dropdown-menu">
-											<li><a href="#the-wedding">Invitación</a></li>
-											<li><a href="#location">Ubicación</a></li>
-											<li><a href="#testimonials">Buenos deseos</a></li>
-											<li class="dropdown-submenu">
-												<a href="#">Another Menu</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Another Menu</a></li>
-													<li><a href="#">Another Menu</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									
-									<li><a href="#gallery">Galería</a></li>
-
-									<li><a href="#rsvp">RSVP</a></li>
-								</ul>
-								
-								<button id="nav-mobile-btn"><i class="fas fa-bars"></i></button><!-- Mobile menu button -->
-							</nav>
-							<!-- END MAIN MENU -->
-							
-						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -124,14 +83,12 @@
 		
 		
 		<!-- BEGIN HERO SECTION -->
-		<section id="hero" class="bg-slideshow section-divider-bottom-1">
+		<div id="hero" class="bg-slideshow section-divider-bottom-1 section-divider-bg-color">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-					
-						<div class="hero-wrapper v-center">
-							<h2 data-animation-direction="fade" data-animation-delay="600">¡Nos casamos!</h2>
-							
+						<div class="v-center">
+						<div class="hero-divider-top light" data-animation-direction="from-top" data-animation-delay="700"></div>
 							<h1 class="hero-title light ">
 								<span data-animation-direction="from-right" data-animation-delay="300">Juan</span>
 								<small data-animation-direction="from-top" data-animation-delay="300">&</small> 
@@ -140,20 +97,45 @@
 							
 							<div class="hero-subtitle light" data-animation-direction="fade" data-animation-delay="1000">ENERO <span>21</span> 2023</div>
 							
-							<div data-animation-direction="fade" data-animation-delay="1000">
-								<a href="#rsvp" class="btn btn-light scrollto">RSVP</a>
-							</div>
-						</div>
+						<div class="hero-divider-bottom light" data-animation-direction="from-bottom" data-animation-delay="700"></div>
 						
+						<div class="hero-subtitle light">Se casarán en</div>
+						<div class="countdown" data-date="2023/01/21 2:00 PM"></div>
+
+						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 		<!-- END HERO SECTION -->
 		
+		<!-- BEGIN BRIDE & GROOM SECTION -->
+		<section class="section-bg-color overflow-content-over no-padding-top">
+		
+			<div class="section-bg-color overflow-content no-padding">
+				<div class="container">
+					<div class="row">
+						<div class="col overflow-image-wrapper">
+						
+							<div class="overflow-image-text extra-padding-top">
+								<h2 class="title">He asker her & she said yes!</h2>
+								<p class="center">Phasellus a sapien tincidunt nunc dapibus mollis. Etiam ultricies bibendum sodales. Nulla libero tortor, auctor at elit ut, pharetra placerat libero. Aenean gravida in libero sed tincidunt. Nulla non mattis nisl, in imperdiet justo. Proin metus mauris, gravida vel ante et, ornare laoreet libero sed ut quam vitae. Aenean aliquam augue turpis, in tempor elit condimentum sit amet. Aenean aliquam augue turpis, in tempor elit condimentum sit amet. Phasellus a sapien tincidunt nunc dapibus mollis. Etiam ultricies bibendum sodales.</p>
+								<p class="center"><a class="btn btn-primary" href="about-us.html">Nuestra historia de Amor</a></p>
+							</div>
+							
+							<div class="overflow-image flower">
+								<img src="./images/pareja.JPG" alt="Pareja">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<!-- END BRIDE & GROOM SECTION -->
 		
 		<!-- BEGIN ABOUT US SECTION -->
-		<section id="about-us">
+		<!-- <section id="about-us">
 			<div class="container">
 				<div class="row about-elems-wrapper">
 					<div class="element col-md-6 col-xl-4 offset-xl-2" data-animation-direction="from-left" data-animation-delay="300">
@@ -203,8 +185,25 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- END ABOUT US SECTION -->
+
+		<!-- BEGIN QUOTE SECTION -->
+		<section id="about-us-quote-section" class="pattern section-divider-bottom-1 padding-divider-top" >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+						<h2 class="section-title screen-reader-text">Cita</h2>
+						
+						<blockquote class="neela-quote">
+							El Señor de los ejércitos está con nosotros;
+							Nuestro baluarte es el Dios de Jacob. (Selah)
+							Salmo 46:11
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</section>
 		
 		<!-- BEGIN OUR STORY TITLE SECTION -->
 		<section id="our-story-title" class="parallax-background bg-color-overlay section-divider-bottom-2 padding-divider-top">
@@ -246,7 +245,7 @@
 									<div class="description" data-parallax="-6" data-animation-direction="from-bottom" data-animation-delay="250">
 										<div class="neela-style">
 											<h4>Nuestro primer acercamiento</h4>
-											<p>Nuestra historia comienza en la red social Facebook, a través de la página de Doctrina Bíblica "La Honda de David". <br>Juan era el administrador de la misma, y Viry era una seguidora del contenido. <br><br>Juan se fijó en ella al notar su participación en los temas Bíblicos allí expuestos, pues comentaba y enseñaba diligentemente lo concerniente a Dios y Su Palabra. Él, a la distancia, la miraba y analizaba, pero ella no lo sabía.<br><br>Interesado en conocerla, Juan le hizo la solicitud de amistad, y Viridiana, tras algunos días, el 30 de Julio del 2020 le aceptó. <br><br>Y fue en la tarde del día siguiente (31 de Julio), en pleno auge del COVID-19 y en un mundo bajo estrictos confinamientos, que a 3600 kilometros de distancia tuvieron su primera conversación.</p>
+											<p>Nuestra historia comienza en la red social Facebook, a través de la página de Doctrina Bíblica "La Honda de David". <br>Juan era el administrador de la misma, y Viry era una seguidora del contenido. <br><br>Juan se fijó en ella al notar su participación en los temas Bíblicos allí expuestos, pues comentaba y enseñaba diligentemente lo concerniente a Dios y Su Palabra. Así que, interesado en conocerla, Juan le hizo la solicitud de amistad, y ella el 30 de Julio del 2020 le aceptó. <br><br>A la tarde del día siguiente (31 de Julio), a 3600 kilometros de distancia tuvieron su primera conversación.</p>
 										</div>
 									</div>
 								</div>
@@ -280,7 +279,7 @@
 									<div class="description">
 										<div class="neela-style">
 											<h4>Primera cita</h4>
-											<p>Tras unos 10 meses de conversar e interactuar a la distancia de manera constante, y tras ambos conocer sus intereses, cosmovisión, anhelos, y principalmente coincidir en su Amor genuino por Dios; Juan entonces, plenamente convencido, decide viajar a México para verla por primera vez.<br><br>Se encuentran en el Aeropuerto de Guadalajara sobre las 13:00 horas del 01 de Mayo de 2021, y se van a recorrer Tlaquepaque ─un pueblito tranquilo y lleno de colores─ mientras hablan, rién y confirman a cada paso, que se encuentran junto al Amor de su vida.<br><br>Este mismo día se hicieron novios, e iniciaron el camino que hoy los lleva al altar.</p>
+											<p>Tras 10 meses de interactuar a la distancia, y tras ambos conocer sus intereses, cosmovisión, anhelos, y principalmente coincidir en su Amor genuino por Dios; Juan decide viajar a México para verla por primera vez, y además, va decidido a pedirle que sea su novia.<br><br>Se encuentran el 01 de Mayo de 2021 en el Aeropuerto de Guadalajara sobre las 13:00 horas, y se van a recorrer Tlaquepaque ─un pueblito tranquilo y lleno de colores─ mientras hablan, rién y confirman a cada paso, que se encuentran junto al Amor de su vida.<br><br>Este mismo día se hicieron novios, e iniciaron el camino que hoy los lleva al altar.</p>
 										</div>
 									</div>
 								</div>
@@ -292,26 +291,26 @@
 							
 							<div class="template-2">
 								<div class="date" data-parallax="3" data-animation-direction="fade" data-animation-delay="250">
-									<span class="neela-style">15 July</span>
+									<span class="neela-style">30 Diciembre</span>
 								</div>
 								
-								<div class="videoEmbed" data-parallax="6" data-animation-direction="from-top" data-animation-delay="250">
-									<iframe src="https://player.vimeo.com/video/136240001" width="590" height="330" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-								</div>
+								<!-- <div class="videoEmbed" data-parallax="6" data-animation-direction="from-top" data-animation-delay="250">
+									<iframe src="./images/loveline/video-pedida-de-mano.mp4" width="590" height="330" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+								</div> -->
 								
 								<div class="image-1" data-parallax="-2" data-animation-direction="from-left" data-animation-delay="250">
-									<img src="https://via.placeholder.com/600x800.png" alt="">
+									<img src="./images/loveline/velero-poner-anillo.JPG" alt="">
 								</div>
 								
 								<div class="image-2" data-parallax="4" data-animation-direction="from-right" data-animation-delay="250">
-									<img src="https://via.placeholder.com/600x800.png" alt="">
+									<img src="./images/loveline/velero-arrodillado.JPG" alt="">
 								</div>
 								
 								<div class="description-wrapper" data-parallax="-5" data-animation-direction="from-bottom" data-animation-delay="250">
 									<div class="description" data-parallax="-6" data-animation-direction="from-bottom" data-animation-delay="250">
 										<div class="neela-style">
-											<h4>She said Yes!</h4>
-											<p>So how did Mark pop the question? On a Cruise ... off the shore ... of the Cayman Islands! (YES!) On their way down to dinner with the Ship's Captain, Mark's nerves got the best of him and he pulled Sarah back to the room and straight onto the balcony for the best proposal a girl could ask for!</p>
+											<h4>¡Ella dijo SÍ!</h4>
+											<p>¿Cómo fue la pedida de mano? <br>¡En un Velero...! Bajo un sol radiante en la laguna de Guatavita, Colombia. <br>(¡SI!) Dijo ella, a mitad del recorrido del velero al que habían subido con la excusa de hacer una sesión fotográfica de pareja. Resultó ser una completa sorpresa para ella; aunque todos en el velero (capitán y fotógrafos) lo sabían.</p>
 										</div>
 									</div>
 								</div>
@@ -320,7 +319,7 @@
 						
 						<div class="timeline_footer">
 							<i class="icon-diamond-ring" data-animation-direction="from-top" data-animation-delay="250"></i>
-							<div class="punchline" data-animation-direction="from-bottom" data-animation-delay="250"><small>This is where our</small>forever<br>begins!</div>
+							<div class="punchline" data-animation-direction="from-bottom" data-animation-delay="250"><small>¡Aquí es donde inicia nuestro</small>PARA SIEMPRE!<br></div>
 						</div>
 						
 					</div>
@@ -336,7 +335,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="section-title light">Invitation</h1>
+						<h1 class="section-title light">Invitación</h1>
 					</div>
 				</div>
 				
@@ -344,19 +343,19 @@
 					<div class="col-md-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 center">
 						<div class="invite neela-style" data-animation-direction="from-left" data-animation-delay="100">
 							<div class="invite_title">
-								<div class="text">
-									Save<small>the</small>Date
+								<div class="text" style="font-size: 60px;">
+									Reserva<small>la</small>Fecha
 								</div>
 							</div>
 							
 							<div class="invite_info">
-								<h2>Isabella <small>&</small> Andrew</h2>
+								<h2>Juan <small>&</small> Viridiana</h2>
 								
-								<div class="uppercase">Request the honor of your presence on their wedding day</div>
-								<div class="date">September 24, 2022<small>at 03:00 pm</small></div>
-								<div class="uppercase">At Birchwood Church<br>4181 Birchwood Ave Seal Beach, CA</div>
+								<div class="uppercase">Desean tener el honor de contar con su presencia en el día de su boda</div>
+								<div class="date">Enero 21, 2023<small>a las 02:00 pm</small></div>
+								<div class="uppercase">En Hacienda Salamanca<br>Tenjo, Cundinamarca</div>
 								
-								<h5>Reception to follow</h5>
+								<h5>Ceremonia y Recepción</h5>
 							</div>
 						</div>
 					</div>
@@ -370,7 +369,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h2 class="section-title">Location</h2>
+						<h2 class="section-title">Ubicación</h2>
 					</div>
 				</div>
 			</div>
@@ -383,15 +382,11 @@
 							<div class="info-wrapper" data-animation-direction="from-bottom" data-animation-delay="100">
 								<div class="location-info">
 									<div class="neela-style">
-										<h4 class="has-icon"><i class="icon-big-church"></i>Ceremony<small>03:00pm</small></h4>
-										<h5>Birchwood Church</h5>
-										<p>4181 Birchwood Ave Seal Beach, CA<br>33.776825, -118.059113</p>
-										
+										<h4 class="has-icon"><i class="icon-big-church"></i>Ceremonia<small>02:00pm</small></h4>
+										<h4 class="has-icon"><i class="icon-champagne-glasses"></i>Recepción<small>4:00pm</small></h4>
 										<div class="info-map-divider"></div>
-										
-										<h4 class="has-icon"><i class="icon-champagne-glasses"></i>Reception<small>05:30pm</small></h4>
-										<h5>Old Ranch Country Club</h5>
-										<p>29033 West Lake Drive, Agoura Hills, CA<br>33.776025, -118.065314</p>
+										<h5>HACIENDA SALAMANCA</h5>
+										<p>Tenjo, Cundinamarca</p>
 									</div>
 								</div>
 							</div>
@@ -401,10 +396,7 @@
 								
 								<div class="map_pins">
 									<ul class="pins">
-										<li><i class="fas fa-bell"></i>Ceremony</li>
-										<li><i class="fas fa-glass-cheers"></i>Reception</li>
-										<li><i class="fas fa-bed"></i>Accomodations</li>
-										<li><i class="fas fa-plane"></i>Transportation</li>
+										<li><i class="fas fa-bell"></i>Ceremonia y Recepción</li>
 									</ul>
 								</div>
 							</div>
@@ -421,12 +413,11 @@
 		
 		
 		<!-- BEGIN BRIDESMAIDS SECTION -->
-		<section id="bridesmaids" class="parallax-background bg-color-overlay">
+		<!-- <section id="bridesmaids" class="parallax-background bg-color-overlay">
 			<div class="container">
-			
 				<div class="row">
 					<div class="col-sm-12">
-						<h2 class="section-title light">Bridesmaids</h2>
+						<h2 class="section-title light">Damas de Honor</h2>
 					</div>
 				</div>
 				
@@ -481,7 +472,7 @@
 				</div>
 				
 			</div>
-		</section>
+		</section> -->
 		<!-- END BRIDESMAIDS SECTION -->
 		
 		
@@ -496,7 +487,15 @@
 								<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius ante libero, a sollicitudin elit malesuada et. Nulla facilisi. Pellentesque magna diam, mattis a gravida eget, lobortis ut velit. Nam interdum hendrerit nisl et malesuada. Nulla facilisis velit neque, sed ultrices nibh facilisis non.</blockquote>
 								
 								<div class="author">
-									<h3>John Doe<small>Best Man</small></h3>
+									<h3>Gonzalo Durán & Edelmira Aguirre<small>Padres de la Novia</small></h3>
+								</div>
+							</div>
+
+							<div class="item">
+								<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius ante libero, a sollicitudin elit malesuada et. Nulla facilisi. Pellentesque magna diam, mattis a gravida eget, lobortis ut velit. Nam interdum hendrerit nisl et malesuada. Nulla facilisis velit neque, sed ultrices nibh facilisis non.</blockquote>
+								
+								<div class="author">
+									<h3>Pablo Modesto & María Garzón<small>Padres del Novio</small></h3>
 								</div>
 							</div>
 							
@@ -504,7 +503,15 @@
 								<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius ante libero, a sollicitudin elit malesuada et. Nulla facilisi. Pellentesque magna diam, mattis a gravida eget, lobortis ut velit. Nam interdum hendrerit nisl et malesuada. Nulla facilisis velit neque, sed ultrices nibh facilisis non.</blockquote>
 								
 								<div class="author">
-									<h3>John Doe<small>Best Man</small></h3>
+									<h3>Fernando & Julia Jaimes<small>Pastor y esposa, Comunidad de Gracia - Bogotá</small></h3>
+								</div>
+							</div>
+
+							<div class="item">
+								<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius ante libero, a sollicitudin elit malesuada et. Nulla facilisi. Pellentesque magna diam, mattis a gravida eget, lobortis ut velit. Nam interdum hendrerit nisl et malesuada. Nulla facilisis velit neque, sed ultrices nibh facilisis non.</blockquote>
+								
+								<div class="author">
+									<h3>Abraham Salazar & Angie Rodriguez<small>Amigos</small></h3>
 								</div>
 							</div>
 							
@@ -512,7 +519,23 @@
 								<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius ante libero, a sollicitudin elit malesuada et. Nulla facilisi. Pellentesque magna diam, mattis a gravida eget, lobortis ut velit. Nam interdum hendrerit nisl et malesuada. Nulla facilisis velit neque, sed ultrices nibh facilisis non.</blockquote>
 								
 								<div class="author">
-									<h3>John Doe<small>Best Man</small></h3>
+									<h3>Camilo Caicedo & Marcela Perez<small>Amigos</small></h3>
+								</div>
+							</div>
+
+							<div class="item">
+								<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius ante libero, a sollicitudin elit malesuada et. Nulla facilisi. Pellentesque magna diam, mattis a gravida eget, lobortis ut velit. Nam interdum hendrerit nisl et malesuada. Nulla facilisis velit neque, sed ultrices nibh facilisis non.</blockquote>
+								
+								<div class="author">
+									<h3>Alejandro Torres & Katherin Carlosama<small>Amigos</small></h3>
+								</div>
+							</div>
+
+							<div class="item">
+								<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius ante libero, a sollicitudin elit malesuada et. Nulla facilisi. Pellentesque magna diam, mattis a gravida eget, lobortis ut velit. Nam interdum hendrerit nisl et malesuada. Nulla facilisis velit neque, sed ultrices nibh facilisis non.</blockquote>
+								
+								<div class="author">
+									<h3>Alejandro Torres & Katherin Carlosama<small>Amigos</small></h3>
 								</div>
 							</div>
 						</div>
@@ -523,7 +546,7 @@
 		<!-- END TESTIMONIALS SECTION -->
 		
 		<!-- BEGIN GROOMSMEN SECTION -->
-		<section id="groomsmen" class="parallax-background bg-color-overlay">
+		<!-- <section id="groomsmen" class="parallax-background bg-color-overlay">
 			<div class="container">
 			
 				<div class="row">
@@ -583,12 +606,12 @@
 				</div>
 				
 			</div>
-		</section>
+		</section> -->
 		<!-- END GROOMSMEN SECTION -->
 		
 		
 		<!-- BEGIN WEDDING GIFTS SECTION -->
-		<section id="giftregistry" class="section-bg-color parallax-background">
+		<!-- <section id="giftregistry" class="section-bg-color parallax-background">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-xl-6">
@@ -643,7 +666,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- END WEDDING GIFTS SECTION -->
 		
 		
@@ -653,7 +676,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="section-title">Wedding Gallery</h1>
+						<h1 class="section-title">Nuestro Amor en Fotos</h1>
 					</div>
 				</div>
 			</div>
@@ -666,286 +689,100 @@
 					<ul>
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
+								<a class="btn btn-light btn-sm only-icon" href="./images/galeria/tomados-de-la-mano.JPG" data-lightbox="NuestroAmorEnFotos">
+									<i class="fa fa-plus"></i>
 								</a>
 							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
+							<img src="./images/galeria/tomados-de-la-mano.JPG" alt="" />
 						</li>
 						
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
+								<a class="btn btn-light btn-sm only-icon" href="./images/galeria/perfil.JPG" data-lightbox="NuestroAmorEnFotos">
+									<i class="fa fa-plus"></i>
 								</a>
 							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
+							<img src="./images/galeria/perfil.JPG" alt="" />
 						</li>
 						
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
+								<a class="btn btn-light btn-sm only-icon" href="./images/galeria/blanco-mirada.JPG" data-lightbox="NuestroAmorEnFotos">
+									<i class="fa fa-plus"></i>
 								</a>
 							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
+							<img src="./images/galeria/blanco-mirada.JPG" alt="" />
+						</li>
+						
+
+						<li>
+							<div class="hover-info">
+								<a class="btn btn-light btn-sm only-icon" href="./images/galeria/caballo.JPG" data-lightbox="NuestroAmorEnFotos">
+									<i class="fa fa-plus"></i>
+								</a>
+							</div>
+							<img src="./images/galeria/caballo.JPG" alt="" />
 						</li>
 						
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
+								<a class="btn btn-light btn-sm only-icon" href="./images/galeria/ojos-cerrados-blanco.jpg" data-lightbox="NuestroAmorEnFotos">
+									<i class="fa fa-plus"></i>
 								</a>
 							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
+							<img src="./images/galeria/ojos-cerrados-blanco.jpg" alt="" />
 						</li>
 					</ul>
 					<ul>
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
+								<a class="btn btn-light btn-sm only-icon" href="./images/galeria/shhh.jpg" data-lightbox="NuestroAmorEnFotos">
+									<i class="fa fa-plus"></i>
 								</a>
 							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
+							<img src="./images/galeria/shhh.jpg" alt="" />
+						</li>
+
+						<li>
+							<div class="hover-info">
+								<a class="btn btn-light btn-sm only-icon" href="./images/galeria/monserrate.jpg" data-lightbox="NuestroAmorEnFotos">
+									<i class="fa fa-plus"></i>
+								</a>
+							</div>
+							<img src="./images/galeria/monserrate.jpg" alt="" />
+						</li>
+
+						<li>
+							<div class="hover-info">
+								<a class="btn btn-light btn-sm only-icon" href="./images/galeria/baile-sonrisa.jpg" data-lightbox="NuestroAmorEnFotos">
+									<i class="fa fa-plus"></i>
+								</a>
+							</div>
+							<img src="./images/galeria/baile-sonrisa.jpg" alt="" />
 						</li>
 						
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
+								<a class="btn btn-light btn-sm only-icon" href="./images/galeria/mia.jpg" data-lightbox="NuestroAmorEnFotos">
+									<i class="fa fa-plus"></i>
 								</a>
 							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
+							<img src="./images/galeria/mia.jpg" alt="" />
 						</li>
 						
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
+								<a class="btn btn-light btn-sm only-icon" href="./images/galeria/mirando-horizonte.JPG" data-lightbox="NuestroAmorEnFotos">
+									<i class="fa fa-plus"></i>
 								</a>
 							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
-						</li>
-						
-						<li>
-							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="https://via.placeholder.com/1920x1080.png?text=Gallery+Image+Fullsize" data-lightbox="WeddingPhotos" title="Wedding Photos">
-									<i class="fa fa-link"></i>
-								</a>
-							</div>
-							<img src="https://via.placeholder.com/635x635.png" alt="" />
+							<img src="./images/galeria/mirando-horizonte.JPG" alt="" />
 						</li>
 					</ul>
 				</div>
 			</div>
 		</section>
 		<!-- END GALLERY SECTION -->
-		
-		
-		<!-- BEGIN BLOG SECTION -->
-		<section id="blog" class="section-bg-color divider-bottom-2 divider-pattern divider-bg-color">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1 class="section-title">Wedding Blog</h1>
-					</div>
-				</div>
-				
-				<div class="row">
-				
-					<!-- BEGIN BLOG MAIN CONTENT -->
-					<div class="col-sm-12">
-					
-						<!-- BEGIN BLOG LISTING -->
-						<div class="blog-listing clearfix">
-							<div class="row gx-5">
-								
-								<!-- BEGIN BLOG ITEM -->
-								<article class="item col-md-6">
-									<div class="image">
-										<a href="blog-single-post.html">
-											<span class="btn btn-light"><i class="fa fa-file-o"></i> Read More</span>
-										</a>
-										<img src="https://via.placeholder.com/800x500.png" alt="" />
-									</div>
-									
-									<div class="date">July 20, 2021</div>
-									
-									<div class="info-blog">
-										<h3 class="post-title"><a href="blog-single-post.html">Wedding trends to obsess over this year</a></h3>
-										
-                                        <p>If you've always dreamt of carrying a bouquet of old fashioned garden roses down the aisle, but your budget doesn't quite match up to the dream, try this!</p>
-                                        
-										<div class="bottom-info">
-											<ul class="blog-meta">
-												<li><a href="#">Wedding</a>, <a href="#">Ideas</a>, <a href="#">Tips</a></li>
-												<li>/ By <a href="#">WiselyThemes</a></li>
-											</ul>
-											
-											<div class="blog-share">
-												<a target="_blank" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.wiselythemes.com%2Fhtml%2Fneela%2Fblog-single-post.html"><i class="fab fa-facebook-f"></i></a>
-												<a target="_blank" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.wiselythemes.com%2Fhtml%2Fneela%2Fblog-single-post.html%2F&amp;text=5%20ways%20to%20have%20a%20beautiful%20wedding"><i class="fab fa-twitter"></i></a>
-												<a target="_blank" href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.wiselythemes.com%2Fhtml%2Fneela%2Fblog-single-post.html%2F&amp;description=Wedding%20trends%20to%20obsess%20over%20this%20year&amp;media=https%3A%2F%2Fwww.wiselythemes.com%2Fhtml%2Fneela%2Fimages%2Fblog-img-detail.jpg"><i class="fab fa-pinterest-p"></i></a>
-											</div>
-										</div>
-                                    </div>
-								</article>
-								<!-- END BLOG ITEM -->
-								
-								<!-- BEGIN BLOG ITEM -->
-								<article class="item col-md-6">
-									<div class="image">
-										<a href="blog-single-post.html">
-											<span class="btn btn-light"><i class="fa fa-file-o"></i> Read More</span>
-										</a>
-										<img src="https://via.placeholder.com/800x500.png" alt="" />
-									</div>
-									
-									<div class="date">August 2, 2021</div>
-									
-									<div class="info-blog">
-										<h3 class="post-title"><a href="blog-single-post.html">The ultimate guide to plan your wedding</a></h3>
-										
-										<p>When you consider that the average wedding costs over $20,000, you may be thinking that there’s no way you can afford the day of your dreams.</p>
-										
-										<div class="bottom-info">
-											<ul class="blog-meta">
-												<li><a href="#">Wedding</a>, <a href="#">Ideas</a>, <a href="#">Tips</a></li>
-												<li>/ By <a href="#">WiselyThemes</a></li>
-											</ul>
-											
-											<div class="blog-share">
-												<a target="_blank" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.wiselythemes.com%2Fhtml%2Fneela%2Fblog-single-post.html"><i class="fab fa-facebook-f"></i></a>
-												<a target="_blank" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.wiselythemes.com%2Fhtml%2Fneela%2Fblog-single-post.html%2F&amp;text=DIY%3A%20A%20Garden%20Rose%20Bouquet"><i class="fab fa-twitter"></i></a>
-												<a target="_blank" href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.wiselythemes.com%2Fhtml%2Fneela%2Fblog-single-post.html%2F&amp;description=DIY%3A%20A%20Garden%20Rose%20Bouquet&amp;media=http%3A%2F%2Fplacehold.it%2F750x580"><i class="fab fa-pinterest-p"></i></a>
-											</div>
-										</div>
-									</div>
-								</article>
-								<!-- END BLOG ITEM -->
-								
-							</div>
-						</div>
-						<!-- END BLOG LISTING -->	
-						
-						<div class="center">
-							<a class="btn btn-primary" href="blog-listing-sidebar-right.html">View all blog posts</a>
-						</div>
-							
-					</div>	
-				</div>
-			</div>
-		</section>
-		<!-- END BLOG SECTION -->
 		
 		
 		<!-- BEGIN CONTACTS SECTION -->
@@ -956,13 +793,13 @@
 					<div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2  col-xxl-6 offset-xxl-3">
 						
 						<div class="form-wrapper flowers neela-style">
-							<h1 class="section-title">Will you Attend?</h1>
+							<h1 class="section-title">¿Asistirás?</h1>
 							
 							<form id="form-rsvp" method="post" action="#">
 								
 								<div class="form-floating">
 									<input type="text" name="Name" id="name" placeholder="Your Name*" class="form-control required fromName">
-									<label for="name">Your Name*</label>
+									<label for="name">Tu nombre*</label>
 								</div>
 								
 								<div class="form-floating">
@@ -973,17 +810,17 @@
 								<div class="form-check-wrapper">
 									<div class="form-check form-check-inline">
 										<input class="form-check-input required" type="radio" name="Attend wedding" id="attend_wedding_yes">
-										<label for="attend_wedding_yes">Yes, I will attend.</label>
+										<label for="attend_wedding_yes">Sí, asistiré.</label>
 									</div>
 									
 									<div class="form-check form-check-inline">
 										<input class="form-check-input required" type="radio" name="Attend wedding" id="attend_wedding_no">
-										<label for="attend_wedding_no">Sorry, I can't come.</label>
+										<label for="attend_wedding_no">Lo siento, no puedo asistir.</label>
 									</div>
 								</div>
 								
 								<div class="form-floating">
-									<select class="form-select" aria-label="Number of guests" name="Number of Guests" id="num_guests">
+									<select class="form-select" aria-label="Número de acompañantes" name="Number of Guests" id="num_guests">
 										<option value="0">0</option>
 										<option value="1">1</option>
 										<option value="2">2</option>
@@ -994,7 +831,7 @@
 										<option value="7">7</option>
 									</select>
 									
-									<label for="num_guests">Number of guests</label>
+									<label for="num_guests">Número de acompañantes</label>
 								</div>
 								
 								<fieldset class="form-check-wrapper required" name="Meal Preferences" id="meal_pref">
@@ -1031,13 +868,13 @@
 								
 								<div class="form-floating">
 									<textarea id="message" name="Message" placeholder="Message" class="form-control" rows="4"></textarea>
-									<label for="message">Message</label>
+									<label for="message">Mensaje</label>
 								</div>
 								
 								<div class="form_status_message"></div>
 								
 								<div class="center">
-									<button type="submit" class="btn btn-primary submit_form">Send</button>
+									<button type="submit" class="btn btn-primary submit_form">Enviar</button>
 								</div>
 							</form>
 						</div>
@@ -1055,30 +892,30 @@
 					<div class="row">
 						<div class="col-md-4">
 							<div class="footer-info left">
-								Saturday, 24 September 2022 at 03:00 pm<br>
-								4181 Birchwood Ave Seal Beach, CA
+								Sábado, 21 Enero 2023 a las 02:00 pm<br>
+								Hacienda Salamanca, Tenjo, Cundinamarca
 							</div>
 						</div>
 						
 						<div class="col-md-4">
 							<div class="footer-logo">
-								Isabella<br>
+								Juan<br>
 								<small>&</small><br>
-								Andrew
+								Viridiana
 							</div>
 						</div>
 						
 						<div class="col-md-4">
 							<div class="footer-info right">
-								Tel.: +0012 345 678 910<br>
-								E-mail: isabella.andrew@example.com
+								Tel.: 320 484 2153<br>
+								E-mail: juanp.viridiana@gmail.com
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		
-			<div class="copyright">
+			<!-- <div class="copyright">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
@@ -1086,7 +923,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</footer>
 		<!-- END FOOTER -->
 		
