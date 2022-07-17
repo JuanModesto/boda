@@ -231,11 +231,11 @@ var Neela;
                 $(window).on("scroll load", function () {
                     var s = $(window).scrollTop();
 
-                    if (s > 180) {
-                        $(".nav-section.light").addClass("sticky");
-                    } else {
-                        $(".nav-section.light").removeClass("sticky");
-                    }
+                    // if (s > 180) {
+                    //     $(".nav-section.light").addClass("sticky");
+                    // } else {
+                    //     $(".nav-section.light").removeClass("sticky");
+                    // }
                 });
             }
 

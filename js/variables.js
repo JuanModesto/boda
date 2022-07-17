@@ -29,9 +29,9 @@ var timeline_parallax = true;                   //If false, the timeline items w
 
 
 //CONTACT FORM VARIABLES
-var contact_form_success_msg = "Form successfully submitted! :)";
-var contact_form_error_msg = "Error sending message :(";
-var contact_form_recaptcha_error_msg = "Error verifying reCaptcha!";
+var contact_form_success_msg = "¡Enviado satisfactoriamente! :)";
+var contact_form_error_msg = "Error al enviar el mensaje :(";
+var contact_form_recaptcha_error_msg = "¡Error al verificar el reCaptcha!";
 
 
 //COUNTDOWN VARIABLES
@@ -39,7 +39,7 @@ var c_days = "DÍAS";                            //Countdown "Days" label
 var c_hours = "HORAS";                          //Countdown "Hours" label
 var c_minutes = "MIN.";                         //Countdown "Minutes" label
 var c_seconds = "SEG.";                         //Countdown "Seconds" label
-var countdown_end_msg = "¡Ya empezó!";       //Message to display when the countdown reaches the end
+var countdown_end_msg = "¡YA!";       //Message to display when the countdown reaches the end
 
 
 //GOOGLE MAP VARIABLES
