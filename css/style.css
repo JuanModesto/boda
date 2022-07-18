@@ -41,6 +41,13 @@
 :root {
   color-scheme: only light;
 }
+
+@media (inverted-colors: inverted) {
+  p {
+    background: black;
+    color: yellow;
+  }
+}
 /* #Variables
 ================================================== */
 /* #Mixins
