@@ -1216,6 +1216,7 @@ p.center {
 .pattern {
   background-image: url("../images/neela-pattern.png");
   background-repeat: repeat;
+  opacity: 10%;
 }
 
 .padding-divider-top {
