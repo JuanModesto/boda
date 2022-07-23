@@ -20,7 +20,6 @@ var slidehow_images = [
     "./images/portada/bailando.JPG",
     "./images/portada/mirando-horizonte.JPG",
     "./images/portada/mirando-caballo.JPG",
-    "./images/portada/caballo.JPG",
     "./images/portada/ojos-cerrados.JPG",
 ];
 
