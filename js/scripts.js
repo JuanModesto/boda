@@ -184,7 +184,7 @@ var Neela;
                 //    clearInterval(isLoaded);
                     $("#preloader").fadeOut(1000);
                 //}
-            }, 3000);
+            }, 5000);
         },
 
         navigation: function () {
