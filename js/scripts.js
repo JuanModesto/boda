@@ -109,7 +109,7 @@ var Neela;
             /**
             * Create Gallery
             */
-            $_self.createGallery();
+            //$_self.createGallery();
 
             /**
             * Create the Hero background image grid
