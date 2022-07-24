@@ -180,11 +180,11 @@ var Neela;
 
         preloader: function () {
             var isLoaded = setInterval(function () {
-                if (/loaded|complete/.test(document.readyState)) {
-                    clearInterval(isLoaded);
+                // if (/loaded|complete/.test(document.readyState)) {
+                    // clearInterval(isLoaded);
                     $("#preloader").fadeOut(1000);
-                }
-            }, 10);
+                // }
+            }, 5000);
         },
 
         navigation: function () {
