@@ -99,7 +99,7 @@ var Neela;
             /**
             * Create Hero Background Slideshow
             */
-            // $_self.createBackgroundSlideshow();
+            $_self.createBackgroundSlideshow();
 
             /**
             * Create Owl Sliders
@@ -109,7 +109,7 @@ var Neela;
             /**
             * Create Gallery
             */
-            // $_self.createGallery();
+            //$_self.createGallery();
 
             /**
             * Create the Hero background image grid
@@ -604,7 +604,7 @@ var Neela;
                     bullets: false,
                     speed: 10000,
                     switchSpeed: 1000,
-                    interval: 6000
+                    interval: 7000
                 });
             }
         },
