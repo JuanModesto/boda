@@ -604,7 +604,7 @@ var Neela;
                     bullets: false,
                     speed: 10000,
                     switchSpeed: 1000,
-                    interval: 7000
+                    interval: 5000
                 });
             }
         },
