@@ -11,9 +11,9 @@ If none of the fields were set as emailTo, fromName, fromEmail
 or subject, the default values (below) will be used.
 */
 $emailto = 'boda@juanyviry.com'; 	// Insert the email address that will receive the messages
-$fromName = 'Asistencia Boda';					// Insert a default "From Name" (this field will be displayed in the email header)
+$fromName = 'Asistencia Acción de Gracias';					// Insert a default "From Name" (this field will be displayed in the email header)
 $fromEmail = 'boda@juanyviry.com';	// Insert a default "From Email" address (this field will be displayed in the email header)
-$subject = 'Asistencia Boda';		// Insert a default contact form subject
+$subject = 'Asistencia Acción de Gracias';		// Insert a default contact form subject
 
 
 // Insert your Google reCaptcha V2 secret key
